@@ -72,6 +72,7 @@
                                 <ResourceDictionary Source="Reorganizing/ReorganizingParentDataTemplate.xaml" />
                                 <ResourceDictionary Source="Reorganizing/ReorganizingRegionsDataTemplate.xaml" />
                                 <ResourceDictionary Source="Reorganizing/ReorganizingTypesDataTemplate.xaml" />
+								<ResourceDictionary Source="Reorganizing/ReorganizingAccessLevelDataTemplate.xaml" />
                                 <ResourceDictionary Source="Switching/SwitchingDataTemplate.xaml" />
                                 <ResourceDictionary Source="ThirdParty/ThirdPartyDataTemplate.xaml" />
                             </ResourceDictionary.MergedDictionaries>

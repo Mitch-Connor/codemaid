@@ -116,12 +116,12 @@ namespace SteveCadwallader.CodeMaid.Helpers
 
             switch (codeItemElement.Access)
             {
-                case vsCMAccess.vsCMAccessPublic: return 1;
-                case vsCMAccess.vsCMAccessAssemblyOrFamily: return 2;
-                case vsCMAccess.vsCMAccessProject: return 3;
-                case vsCMAccess.vsCMAccessProjectOrProtected: return 4;
-                case vsCMAccess.vsCMAccessProtected: return 5;
-                case vsCMAccess.vsCMAccessPrivate: return 6;
+                case vsCMAccess.vsCMAccessPublic: return AccessLevelSettingHelper.PublicSettings.Order;
+                case vsCMAccess.vsCMAccessAssemblyOrFamily: return AccessLevelSettingHelper.AssemblyOrFamilySettings.Order;
+                case vsCMAccess.vsCMAccessProject: return AccessLevelSettingHelper.ProjectSettings.Order;
+                case vsCMAccess.vsCMAccessProjectOrProtected: return AccessLevelSettingHelper.ProjectOrProtectedSettings.Order;
+                case vsCMAccess.vsCMAccessProtected: return AccessLevelSettingHelper.ProtectedSettings.Order;
+                case vsCMAccess.vsCMAccessPrivate: return AccessLevelSettingHelper.PrivateSettings.Order;
                 default: return 0;
             }
         }

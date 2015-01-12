@@ -425,5 +425,23 @@
     <Setting Name="Cleaning_IncludeJSON" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
     </Setting>
+    <Setting Name="Reorganizing_AccessLevelPublic" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Public||1||Public</Value>
+    </Setting>
+    <Setting Name="Reorganizing_AccessLevelAssemblyOrFamily" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Assembly or Family||2||Assembly or Family</Value>
+    </Setting>
+    <Setting Name="Reorganizing_AccessLevelProject" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Project||3||Project</Value>
+    </Setting>
+    <Setting Name="Reorganizing_AccessLevelProjectOrProtected" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Project or Protected||4||Project or Protected</Value>
+    </Setting>
+    <Setting Name="Reorganizing_AccessLevelProtected" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Protected||5||Protected</Value>
+    </Setting>
+    <Setting Name="Reorganizing_AccessLevelPrivate" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Private||6||Private</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
