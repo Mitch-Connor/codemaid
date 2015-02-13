@@ -428,6 +428,9 @@
     <Setting Name="Reorganizing_AccessLevelPublic" Type="System.String" Scope="User">
       <Value Profile="(Default)">Public||1||Public</Value>
     </Setting>
+    <Setting Name="Cleaning_IncludePHP" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
     <Setting Name="Reorganizing_AccessLevelAssemblyOrFamily" Type="System.String" Scope="User">
       <Value Profile="(Default)">Assembly or Family||2||Assembly or Family</Value>
     </Setting>

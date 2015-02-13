@@ -1787,5 +1787,17 @@ namespace SteveCadwallader.CodeMaid.Properties {
                 this["Reorganizing_AccessLevelPrivate"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool Cleaning_IncludePHP {
+            get {
+                return ((bool)(this["Cleaning_IncludePHP"]));
+            }
+            set {
+                this["Cleaning_IncludePHP"] = value;
+            }
+        }
     }
 }
